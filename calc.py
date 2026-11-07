@@ -18,5 +18,8 @@ def main() -> None:
     print(f"{a} * {b} = {multiply(a, b)}")
 
 
+def sub(a: float, b: float) -> float:
+    return a - b
+
 if __name__ == "__main__":
     main()
